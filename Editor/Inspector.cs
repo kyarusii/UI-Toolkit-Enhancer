@@ -66,10 +66,6 @@ public abstract class Inspector : UnityEditor.Editor
 
 						list.Add(propertyField);
 						groupedOrderedProperties[attribute] = list;
-
-						// var header = new Label(attribute.header);
-						// header.AddToClassList("header");
-						// root.Add(header);
 					}
 					else
 					{
@@ -89,8 +85,6 @@ public abstract class Inspector : UnityEditor.Editor
 				root.Add(fold);
 
 				fold.text = ga.@group;
-				// fold.style.fontSize = 12;
-				// fold.style.unityFontStyleAndWeight = FontStyle.Bold;
 				
 				var list = groupedOrderedProperties[ga];
 				foreach (PropertyField propertyField in list)

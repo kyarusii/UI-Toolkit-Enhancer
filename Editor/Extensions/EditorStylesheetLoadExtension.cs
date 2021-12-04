@@ -19,7 +19,7 @@ public static class EditorStylesheetLoadExtension
 		
 		if (asset == null)
 		{
-			Debug.LogWarning($"로드 실패 : {resolvedPath}");
+			Debug.LogWarning($"에디터 로드 실패 : {resolvedPath}");
 			return false;
 		}
 		
