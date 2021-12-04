@@ -1,0 +1,13 @@
+{
+  "name": "com.calci.uienhancer",
+  "displayName": "UI Toolkit Enhancer",
+  "version": "1.0.0",
+  "description": "basic ui elements scripts to develop with unity editor",
+  "keywords": [
+    "unity",
+    "script",
+    "ui"
+  ],
+  "author": "seonghwan-dev",
+  "license": "MIT"
+}
