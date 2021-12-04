@@ -9,5 +9,7 @@
     "ui"
   ],
   "author": "seonghwan-dev",
-  "license": "MIT"
+  "license": "MIT",
+  "unity": "2021.2",
+  "type": "library"
 }

@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using System.Text.RegularExpressions;
 using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.UIElements;
@@ -16,7 +15,10 @@ public abstract class Inspector : UnityEditor.Editor
 	protected readonly Dictionary<GroupAttribute, List<PropertyField>> groupedOrderedProperties
 		= new Dictionary<GroupAttribute, List<PropertyField>>();
 
-	protected virtual void OnCreateGUI() { }
+	protected virtual void OnCreateGUI()
+	{
+		
+	}
 
 	public override VisualElement CreateInspectorGUI()
 	{
