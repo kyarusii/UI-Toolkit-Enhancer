@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "com.calci.uienhancer": {
+      "version": "file:com.calci.uienhancer",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.unity.collab-proxy": {
       "version": "1.13.5",
       "depth": 0,
